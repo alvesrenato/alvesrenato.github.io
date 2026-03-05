@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renato Alves - Design Engineer & Front-end Developer</title>
+    <meta name="description" content="Renato Alves - Design Engineer | Front-end Developer | UX/UI Specialist with 15+ years experience">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">RA.</div>
+            <div class="nav-controls">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="pt">PT</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="it">IT</button>
+                </div>
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-subtitle" data-i18n="role">Design Engineer & Front-end Developer</p>
+                    <h1 class="hero-title">
+                        <span data-i18n="greeting">Olá, sou</span>
+                        <span class="highlight">Renato Alves</span>
+                    </h1>
+                    <p class="hero-description" data-i18n="heroDesc">
+                        Com mais de 15 anos de experiência, construo pontes entre design e engenharia 
+                        para criar produtos digitais de alta performance e centrados no usuário.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary" data-i18n="contactBtn">Entrar em Contato</a>
+                        <a href="#experience" class="btn btn-secondary" data-i18n="experienceBtn">Ver Experiência</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label" data-i18n="yearsExp">Anos Exp.</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label" data-i18n="languages">Idiomas</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label" data-i18n="passion">Paixão</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="aboutTag">Sobre</span>
+                <h2 class="section-title" data-i18n="aboutTitle">Perfil Profissional</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p data-i18n="aboutP1">
+                        Como Design Engineer, atuo no ponto de interseção entre design e desenvolvimento, 
+                        garantindo fidelidade visual e escalabilidade técnica. Atualmente sou Desenvolvedor 
+                        Front-end na Porto Editora, onde utilizo HTML, CSS, JavaScript e Figma para criar 
+                        experiências digitais centradas no usuário.
+                    </p>
+                    <p data-i18n="aboutP2">
+                        Sou um solucionador nato de problemas, com paixão por criar soluções eficientes. 
+                        Ao longo da carreira, transformei desafios de negócio em sucessos digitais, 
+                        desde otimização de custos até transformação digital completa.
+                    </p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">💡</div>
+                        <h3 data-i18n="highlight1Title">Otimização de Custos</h3>
+                        <p data-i18n="highlight1Desc">App mobile que substituiu comunicação em papel, reduzindo custos operacionais</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🚀</div>
+                        <h3 data-i18n="highlight2Title">Transformação Digital</h3>
+                        <p data-i18n="highlight2Desc">Implementação do ecossistema Google for Education para milhares de usuários</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">⚡</div>
+                        <h3 data-i18n="highlight3Title">Automação</h3>
+                        <p data-i18n="highlight3Desc">Expansão do toolkit técnico com Python para automação de workflows</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="skillsTag">Competências</span>
+                <h2 class="section-title" data-i18n="skillsTitle">Habilidades Técnicas</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Front-end</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">SASS/SCSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Design & UX</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Design Systems</span>
+                        <span class="skill-tag">Prototipagem</span>
+                        <span class="skill-tag">Adobe Creative Suite</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Backend & Outros</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">AJAX</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Gestão</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Gestão de Projetos</span>
+                        <span class="skill-tag">Branding</span>
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">Transformação Digital</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="expTag">Carreira</span>
+                <h2 class="section-title" data-i18n="expTitle">Experiência Profissional</h2>
+            </div>
+            <div class="timeline">
+                <!-- Porto Editora -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Desenvolvedor Front-end</h3>
+                            <span class="timeline-company">Porto Editora</span>
+                            <span class="timeline-date">Out 2023 - Presente</span>
+                        </div>
+                        <p class="timeline-location">📍 Porto, Portugal</p>
+                        <p class="timeline-desc" data-i18n="exp1Desc">
+                            Desenvolvimento de produtos digitais educacionais de alta performance, 
+                            atuando na interseção entre design e engenharia com HTML, CSS, JavaScript e Figma.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Grupo Tecla -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Desenvolvedor Front-end & Gestão de Branding</h3>
+                            <span class="timeline-company">Grupo Tecla</span>
+                            <span class="timeline-date">Mar 2023 - Dez 2023</span>
+                        </div>
+                        <p class="timeline-location">📍 Porto, Portugal</p>
+                        <p class="timeline-desc" data-i18n="exp2Desc">
+                            Atuação híbrida focada na modernização da presença digital do grupo, 
+                            garantindo alinhamento entre implementação técnica e estratégia de branding.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Colégio Nossa Senhora do Rosário - Coordenador -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Coordenador de Desenvolvimento de Projetos</h3>
+                            <span class="timeline-company">Colégio Nossa Senhora do Rosário</span>
+                            <span class="timeline-date">Dez 2017 - Out 2022</span>
+                        </div>
+                        <p class="timeline-location">📍 Rio de Janeiro, Brasil</p>
+                        <ul class="timeline-achievements">
+                            <li data-i18n="exp3Li1">Digitalização da comunicação escolar via app mobile próprio</li>
+                            <li data-i18n="exp3Li2">Integração de sistema de controle de acessos com RFID/Cartão Magnético</li>
+                            <li data-i18n="exp3Li3">Implementação do ecossistema Google for Education</li>
+                            <li data-i18n="exp3Li4">Melhoria da UX para professores e pais com notificações em tempo real</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Colégio - Designer -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Designer</h3>
+                            <span class="timeline-company">Colégio Nossa Senhora do Rosário</span>
+                            <span class="timeline-date">Jan 2011 - Out 2022</span>
+                        </div>
+                        <p class="timeline-location">📍 Rio de Janeiro, Brasil</p>
+                        <p class="timeline-desc" data-i18n="exp4Desc">
+                            Evolução do design gráfico tradicional para experiências digitais. 
+                            Criação de identidade visual para eventos, materiais editoriais e transição para web design.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Professor -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Professor de Informática / Robótica</h3>
+                            <span class="timeline-company">Colégio Nossa Senhora do Rosário</span>
+                            <span class="timeline-date">Jan 2013 - Dez 2017</span>
+                        </div>
+                        <p class="timeline-location">📍 Rio de Janeiro, Brasil</p>
+                    </div>
+                </div>
+
+                <!-- Martins e Câmara -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Designer</h3>
+                            <span class="timeline-company">Martins e Câmara</span>
+                            <span class="timeline-date">Jan 2009 - Nov 2009</span>
+                        </div>
+                        <p class="timeline-location">📍 Aveiro, Portugal</p>
+                        <p class="timeline-desc" data-i18n="exp5Desc">
+                            Desenvolvimento de identidade visual para marcas de luxo e bem-estar 
+                            (PureGlamour, El Spa, Satsanga Spa), gestão de branding e produção gráfica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="eduTag">Formação</span>
+                <h2 class="section-title" data-i18n="eduTitle">Educação</h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <h3 class="education-title">Pós-Graduação em Animação 3D e Vídeo</h3>
+                    <p class="education-institution">Instituto Infnet</p>
+                    <p class="education-date">2012 - 2015</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <h3 class="education-title">Licenciatura em Criação e Gestão de Ambientes Internet</h3>
+                    <p class="education-institution">Universidade dos Açores / Universidade Estácio de Sá</p>
+                    <p class="education-date">2005 - 2009</p>
+                    <p class="education-note" data-i18n="eduNote">Validado pela Universidade dos Açores, Portugal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="contactTag">Contato</span>
+                <h2 class="section-title" data-i18n="contactTitle">Vamos Conversar</h2>
+            </div>
+            <div class="contact-content">
+                <p class="contact-text" data-i18n="contactDesc">
+                    Estou sempre aberto a novas oportunidades e colaborações. 
+                    Vamos criar algo incrível juntos?
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:alves.renato@gmail.com" class="contact-link">
+                        <span class="contact-icon">✉️</span>
+                        <span>alves.renato@gmail.com</span>
+                    </a>
+                    <a href="tel:+351934192942" class="contact-link">
+                        <span class="contact-icon">📱</span>
+                        <span>+351 93 419 2942</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/alvesrenato" target="_blank" rel="noopener" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2024 Renato Alves. <span data-i18n="footerText">Design & Desenvolvimento próprios</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
