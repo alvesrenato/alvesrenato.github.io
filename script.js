@@ -126,8 +126,22 @@ const themeIcon = document.querySelector('.theme-icon');
 const html = document.documentElement;
 
 // Current State
-let currentLang = localStorage.getItem('lang') || 'pt';
+let currentLang = localStorage.getItem('lang') || detectDefaultLanguage();
 let currentTheme = localStorage.getItem('theme') || 'dark';
+
+// Auto-detect Language Logic
+function detectDefaultLanguage() {
+    const browserLang = navigator.language || navigator.userLanguage;
+    const langCode = browserLang.toLowerCase().split('-')[0]; // Pega apenas 'pt', 'en', 'it', etc.
+
+    if (langCode === 'it') {
+        return 'it';
+    } else if (langCode === 'pt') {
+        return 'pt';
+    } else {
+        return 'en'; // Padrão para todos os outros países
+    }
+}
 
 // Initialize
 function init() {
@@ -136,6 +150,22 @@ function init() {
     setupEventListeners();
     setupScrollReveal();
     setupSmoothScroll();
+    setupWhatsappMask();
+}
+
+// WhatsApp Masking
+function setupWhatsappMask() {
+    const whatsappBtn = document.querySelector('.js-whatsapp');
+    if (whatsappBtn) {
+        whatsappBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            // Desconstruindo o número para evitar detecção simples por robôs
+            const country = "351";
+            const number = "934192942";
+            const url = `https://wa.me/${country}${number}`;
+            window.open(url, '_blank');
+        });
+    }
 }
 
 // Language Switcher
