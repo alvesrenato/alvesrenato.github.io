@@ -217,6 +217,27 @@ body {
     gap: 1.5rem;
 }
 
+.nav-contact-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.55rem 0.9rem;
+    border: 1px solid var(--accent);
+    border-radius: 2rem;
+    color: var(--bg-primary);
+    background: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.nav-contact-button:hover {
+    background: var(--accent-hover);
+    transform: translateY(-1px);
+}
+
 /* Language Switcher */
 .lang-switcher {
     display: flex;
@@ -868,6 +889,21 @@ body {
 
     .nav-container {
         padding: 1rem;
+    }
+
+    .nav-controls {
+        gap: 0.6rem;
+    }
+
+    .nav-contact-button {
+        width: 2.4rem;
+        height: 2.4rem;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .nav-contact-button span {
+        display: none;
     }
 
     .container {

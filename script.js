@@ -1,10 +1,11 @@
 // Internationalization Data
 const i18n = {
     pt: {
-        role: "Front-end Developer",
+        role: "Front-End Developer | Email Development | MJML | Selligent | React | UI/UX",
         greeting: "Olá, sou",
         heroDesc: "Desenvolvedor Front-end com mais de 15 anos de experiência, especializado em interfaces performáticas, acessíveis e centradas no usuário — com uma base sólida em design que garante fidelidade visual do primeiro pixel ao deploy.",
         contactBtn: "Entrar em Contato",
+        navContact: "Falar no WhatsApp",
         experienceBtn: "Ver Experiência",
         downloadBtn: "Baixar Currículo (PDF)",
         printHint: "Dica: no diálogo de impressão, abra \"Mais definições\" e desative \"Cabeçalhos e rodapés\" para um PDF limpo.",
@@ -13,7 +14,7 @@ const i18n = {
         passion: "Paixão",
         aboutTag: "Sobre",
         aboutTitle: "Perfil Profissional",
-        aboutP1: "Atuo como Desenvolvedor Front-end, transformando design em código com HTML, CSS, JavaScript e React. Atualmente na Porto Editora, construo produtos digitais educacionais de alta performance, trabalhando lado a lado com times de design em Figma para garantir fidelidade visual sem abrir mão de boas práticas de engenharia.",
+        aboutP1: "Atuo como Desenvolvedor Front-end, transformando design em código com HTML, CSS, JavaScript e React. Atualmente na Porto Editora, construo produtos digitais educacionais e soluções de e-mail responsivas com MJML e Selligent, trabalhando lado a lado com times de design em Figma para garantir fidelidade visual sem abrir mão de boas práticas de engenharia.",
         aboutP2: "Sou um solucionador nato de problemas, com foco em código limpo, performance e experiência do usuário. Minha trajetória passa por otimização de custos, automação de processos e transformação digital — sempre com o front-end como ponto de entrega final.",
         highlight1Title: "Otimização de Custos",
         highlight1Desc: "App mobile que substituiu comunicação em papel, reduzindo custos operacionais",
@@ -23,6 +24,7 @@ const i18n = {
         highlight3Desc: "Expansão do toolkit técnico com Python para automação de workflows",
         skillsTag: "Competências",
         skillsTitle: "Habilidades Técnicas",
+        skillEmail: "Desenvolvimento de E-mail",
         skillPrototyping: "Prototipagem",
         skillBackendOthers: "Backend & Outros",
         skillManagement: "Gestão",
@@ -30,14 +32,24 @@ const i18n = {
         skillDigitalTransformation: "Transformação Digital",
         expTag: "Carreira",
         expTitle: "Experiência Profissional",
-        exp1Desc: "Desenvolvimento de produtos digitais educacionais de alta performance, atuando na interseção entre design e engenharia com HTML, CSS, JavaScript e Figma.",
+        exp1Title: "Desenvolvedor Front-end",
+        exp1Date: "Out 2023 - Presente",
+        exp1Desc: "Desenvolvimento de produtos digitais educacionais e soluções de e-mail responsivas, atuando na interseção entre design e engenharia com HTML, CSS, JavaScript, React, MJML, Selligent e Figma.",
+        exp2Title: "Desenvolvedor Front-end & Gestão de Branding",
+        exp2Date: "Mar 2023 - Dez 2023",
         exp2Desc: "Atuação híbrida focada na modernização da presença digital do grupo, garantindo alinhamento entre implementação técnica e estratégia de branding.",
-        expEarlierTitle: "Carreira Anterior — Design, Educação & Gestão de Projetos",
+        expEarlierTitle: "Design, Educação & Gestão de Projetos",
         expEarlierLi1: "Coordenador de Desenvolvimento de Projetos (2017-2022): digitalização da comunicação escolar via app mobile próprio, integração de controle de acessos RFID e implementação do ecossistema Google for Education",
         expEarlierLi2: "Professor de Informática e Robótica (2013-2017)",
-        expEarlierLi3: "Designer gráfico e web (2009-2022): identidade visual para eventos, materiais editoriais e marcas de bem-estar (PureGlamour, El Spa, Satsanga Spa)",
+        expEarlierLi3: "Designer gráfico e web (2011-2022): identidade visual para eventos, materiais editoriais e projetos institucionais",
+        exp4Title: "Designer",
+        exp4Date: "Jan 2009 - Nov 2009",
+        exp4Desc: "Desenvolvimento de identidades visuais e materiais publicitários para clientes dos setores de luxo e bem-estar.",
         eduTag: "Formação",
         eduTitle: "Educação",
+        edu1Title: "Pós-Graduação em Animação 3D e Vídeo",
+        edu2Title: "Licenciatura em Criação e Gestão de Ambientes Internet",
+        edu3Title: "Licenciatura em Criação e Gestão de Ambientes Internet",
         eduNote: "Validado pela Universidade dos Açores, Portugal",
         contactTag: "Contato",
         contactTitle: "Vamos Conversar",
@@ -45,10 +57,11 @@ const i18n = {
         footerText: "Design & Desenvolvimento próprios"
     },
     en: {
-        role: "Front-end Developer",
+        role: "Front-End Developer | Email Development | MJML | Selligent | React | UI/UX",
         greeting: "Hi, I'm",
         heroDesc: "Front-end Developer with 15+ years of experience, specialized in building high-performance, accessible, user-centric interfaces — backed by a strong design background that ensures visual fidelity from first pixel to deploy.",
         contactBtn: "Get in Touch",
+        navContact: "Chat on WhatsApp",
         experienceBtn: "View Experience",
         downloadBtn: "Download CV (PDF)",
         yearsExp: "Years Exp.",
@@ -56,7 +69,7 @@ const i18n = {
         passion: "Passion",
         aboutTag: "About",
         aboutTitle: "Professional Profile",
-        aboutP1: "I work as a Front-end Developer, turning design into code with HTML, CSS, JavaScript, and React. Currently at Porto Editora, I build high-performance educational digital products, working closely with design teams in Figma to ensure visual fidelity without sacrificing sound engineering practices.",
+        aboutP1: "I work as a Front-end Developer, turning design into code with HTML, CSS, JavaScript, and React. Currently at Porto Editora, I build high-performance educational digital products and responsive email solutions with MJML and Selligent, working closely with design teams in Figma to ensure visual fidelity without sacrificing sound engineering practices.",
         aboutP2: "I'm a natural problem solver focused on clean code, performance, and user experience. My path spans cost optimization, process automation, and digital transformation — always with front-end as the final delivery point.",
         highlight1Title: "Cost Optimization",
         highlight1Desc: "Mobile app that replaced paper-based communication, reducing operational costs",
@@ -66,6 +79,7 @@ const i18n = {
         highlight3Desc: "Expanding technical toolkit with Python for workflow automation",
         skillsTag: "Skills",
         skillsTitle: "Technical Skills",
+        skillEmail: "Email Development",
         skillPrototyping: "Prototyping",
         skillBackendOthers: "Backend & Others",
         skillManagement: "Management",
@@ -73,14 +87,24 @@ const i18n = {
         skillDigitalTransformation: "Digital Transformation",
         expTag: "Career",
         expTitle: "Professional Experience",
-        exp1Desc: "Developing high-performance educational digital products, working at the intersection of design and engineering with HTML, CSS, JavaScript, and Figma.",
+        exp1Title: "Front-end Developer",
+        exp1Date: "Oct 2023 - Present",
+        exp1Desc: "Developing high-performance educational digital products and responsive email solutions, working at the intersection of design and engineering with HTML, CSS, JavaScript, React, MJML, Selligent, and Figma.",
+        exp2Title: "Front-end Developer & Branding Management",
+        exp2Date: "Mar 2023 - Dec 2023",
         exp2Desc: "Hybrid role focused on modernizing the group's digital presence, ensuring alignment between technical implementation and branding strategy.",
-        expEarlierTitle: "Earlier Career — Design, Education & Project Management",
+        expEarlierTitle: "Design, Education & Project Management",
         expEarlierLi1: "Project Development Coordinator (2017-2022): digitalized school communication via a proprietary mobile app, integrated RFID access control, and implemented the Google for Education ecosystem",
         expEarlierLi2: "IT and Robotics Teacher (2013-2017)",
-        expEarlierLi3: "Graphic and web designer (2009-2022): visual identity for events, editorial materials, and wellness brands (PureGlamour, El Spa, Satsanga Spa)",
+        expEarlierLi3: "Graphic and web designer (2011-2022): visual identity for events, editorial materials, and institutional projects",
+        exp4Title: "Designer",
+        exp4Date: "Jan 2009 - Nov 2009",
+        exp4Desc: "Developed visual identities and advertising materials for clients in the luxury and wellness sectors.",
         eduTag: "Education",
         eduTitle: "Education",
+        edu1Title: "Postgraduate Degree in 3D Animation and Video",
+        edu2Title: "Degree in Internet Environments Creation and Management",
+        edu3Title: "Degree in Internet Environments Creation and Management",
         eduNote: "Validated by University of the Azores, Portugal",
         contactTag: "Contact",
         contactTitle: "Let's Talk",
@@ -88,10 +112,11 @@ const i18n = {
         footerText: "Design & Development by me"
     },
     it: {
-        role: "Front-end Developer",
+        role: "Front-End Developer | Email Development | MJML | Selligent | React | UI/UX",
         greeting: "Ciao, sono",
         heroDesc: "Sviluppatore Front-end con oltre 15 anni di esperienza, specializzato nella creazione di interfacce performanti, accessibili e centrate sull'utente — supportato da una solida formazione in design che garantisce fedeltà visiva dal primo pixel al deploy.",
         contactBtn: "Contattami",
+        navContact: "Scrivimi su WhatsApp",
         experienceBtn: "Vedi Esperienza",
         downloadBtn: "Scarica CV (PDF)",
         yearsExp: "Anni Exp.",
@@ -99,7 +124,7 @@ const i18n = {
         passion: "Passione",
         aboutTag: "Chi Sono",
         aboutTitle: "Profilo Professionale",
-        aboutP1: "Lavoro come Sviluppatore Front-end, trasformando il design in codice con HTML, CSS, JavaScript e React. Attualmente presso Porto Editora, sviluppo prodotti digitali educativi ad alte prestazioni, collaborando a stretto contatto con i team di design in Figma per garantire fedeltà visiva senza rinunciare a buone pratiche di ingegneria.",
+        aboutP1: "Lavoro come Sviluppatore Front-end, trasformando il design in codice con HTML, CSS, JavaScript e React. Attualmente presso Porto Editora, sviluppo prodotti digitali educativi ad alte prestazioni e soluzioni email responsive con MJML e Selligent, collaborando a stretto contatto con i team di design in Figma per garantire fedeltà visiva senza rinunciare a buone pratiche di ingegneria.",
         aboutP2: "Sono un problem solver naturale, concentrato su codice pulito, performance ed esperienza utente. Il mio percorso attraversa ottimizzazione dei costi, automazione dei processi e trasformazione digitale — sempre con il front-end come punto di consegna finale.",
         highlight1Title: "Ottimizzazione Costi",
         highlight1Desc: "App mobile che ha sostituito la comunicazione cartacea, riducendo i costi operativi",
@@ -109,6 +134,7 @@ const i18n = {
         highlight3Desc: "Espansione del toolkit tecnico con Python per l'automazione dei workflow",
         skillsTag: "Competenze",
         skillsTitle: "Competenze Tecniche",
+        skillEmail: "Sviluppo Email",
         skillPrototyping: "Prototipazione",
         skillBackendOthers: "Backend & Altro",
         skillManagement: "Gestione",
@@ -116,14 +142,24 @@ const i18n = {
         skillDigitalTransformation: "Trasformazione Digitale",
         expTag: "Carriera",
         expTitle: "Esperienza Professionale",
-        exp1Desc: "Sviluppo di prodotti digitali educativi ad alte prestazioni, lavorando all'intersezione tra design e ingegneria con HTML, CSS, JavaScript e Figma.",
+        exp1Title: "Sviluppatore Front-end",
+        exp1Date: "Ott 2023 - Presente",
+        exp1Desc: "Sviluppo di prodotti digitali educativi ad alte prestazioni e soluzioni email responsive, lavorando all'intersezione tra design e ingegneria con HTML, CSS, JavaScript, React, MJML, Selligent e Figma.",
+        exp2Title: "Sviluppatore Front-end & Gestione Branding",
+        exp2Date: "Mar 2023 - Dic 2023",
         exp2Desc: "Ruolo ibrido incentrato sulla modernizzazione della presenza digitale del gruppo, garantendo allineamento tra implementazione tecnica e strategia di branding.",
-        expEarlierTitle: "Carriera Precedente — Design, Istruzione e Gestione Progetti",
+        expEarlierTitle: "Design, Istruzione e Gestione Progetti",
         expEarlierLi1: "Coordinatore di Sviluppo Progetti (2017-2022): digitalizzazione della comunicazione scolastica tramite app mobile proprietaria, integrazione del controllo accessi RFID e implementazione dell'ecosistema Google for Education",
         expEarlierLi2: "Insegnante di Informatica e Robotica (2013-2017)",
-        expEarlierLi3: "Designer grafico e web (2009-2022): identità visiva per eventi, materiali editoriali e marchi di benessere (PureGlamour, El Spa, Satsanga Spa)",
+        expEarlierLi3: "Designer grafico e web (2011-2022): identità visiva per eventi, materiali editoriali e progetti istituzionali",
+        exp4Title: "Designer",
+        exp4Date: "Gen 2009 - Nov 2009",
+        exp4Desc: "Sviluppo di identità visive e materiali pubblicitari per clienti dei settori lusso e benessere.",
         eduTag: "Formazione",
         eduTitle: "Formazione",
+        edu1Title: "Post-laurea in Animazione 3D e Video",
+        edu2Title: "Laurea in Creazione e Gestione di Ambienti Internet",
+        edu3Title: "Laurea in Creazione e Gestione di Ambienti Internet",
         eduNote: "Convalidato dall'Università degli Azzorre, Portogallo",
         contactTag: "Contatto",
         contactTitle: "Parliamone",
@@ -210,8 +246,8 @@ function setupDownloadCv() {
 
 // WhatsApp Masking
 function setupWhatsappMask() {
-    const whatsappBtn = document.querySelector('.js-whatsapp');
-    if (whatsappBtn) {
+    const whatsappButtons = document.querySelectorAll('.js-whatsapp');
+    whatsappButtons.forEach((whatsappBtn) => {
         whatsappBtn.addEventListener('click', (e) => {
             e.preventDefault();
             // Desconstruindo o número para evitar detecção simples por robôs
@@ -220,7 +256,7 @@ function setupWhatsappMask() {
             const url = `https://wa.me/${country}${number}`;
             window.open(url, '_blank');
         });
-    }
+    });
 }
 
 // Language Switcher

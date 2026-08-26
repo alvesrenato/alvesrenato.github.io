@@ -37,6 +37,10 @@
                 </button>
             </div>
             <div class="nav-controls">
+                <a href="#" class="nav-contact-button js-whatsapp" aria-label="Falar no WhatsApp">
+                    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    <span data-i18n="navContact">Falar no WhatsApp</span>
+                </a>
                 <div class="lang-switcher">
                     <button class="lang-btn active" data-lang="pt">PT</button>
                     <button class="lang-btn" data-lang="en">EN</button>
@@ -54,7 +58,7 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <p class="hero-subtitle" data-i18n="role">Front-end Developer</p>
+                    <p class="hero-subtitle" data-i18n="role">Front-End Developer | Email Development | MJML | Selligent | React | UI/UX</p>
                     <h1 class="hero-title">
                         <span data-i18n="greeting">Olá, sou</span>
                         <span class="highlight">Renato Alves</span>
@@ -63,7 +67,7 @@
                         <span><i class="fa-solid fa-envelope"></i> alves.renato@gmail.com</span>
                         <span><i class="fa-solid fa-location-dot"></i> Porto, Portugal</span>
                         <span><i class="fa-brands fa-linkedin"></i> linkedin.com/in/alvesrenato</span>
-                        <span><i class="fa-brands fa-github"></i> github.com/alvesrenato</span>
+                        <span><i class="fa-solid fa-globe"></i> alvesrenato.github.io</span>
                     </div>
                     <p class="hero-description" data-i18n="heroDesc">
                         Desenvolvedor Front-end com mais de 15 anos de experiência, especializado em
@@ -71,7 +75,6 @@
                         sólida em design que garante fidelidade visual do primeiro pixel ao deploy.
                     </p>
                     <div class="hero-cta">
-                        <a href="#contact" class="btn btn-primary" data-i18n="contactBtn">Entrar em Contato</a>
                         <a href="#experience" class="btn btn-secondary" data-i18n="experienceBtn">Ver Experiência</a>
                         <button type="button" class="btn btn-secondary js-download-cv">
                             <i class="fa-solid fa-download"></i>&nbsp;
@@ -155,14 +158,15 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <div class="timeline-header">
-                            <h3 class="timeline-title">Desenvolvedor Front-end</h3>
+                            <h3 class="timeline-title" data-i18n="exp1Title">Desenvolvedor Front-end</h3>
                             <span class="timeline-company">Porto Editora</span>
-                            <span class="timeline-date">Out 2023 - Presente</span>
+                            <span class="timeline-date" data-i18n="exp1Date">Out 2023 - Presente</span>
                         </div>
                         <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Porto, Portugal</p>
                         <p class="timeline-desc" data-i18n="exp1Desc">
-                            Desenvolvimento de produtos digitais educacionais de alta performance, 
-                            atuando na interseção entre design e engenharia com HTML, CSS, JavaScript e Figma.
+                            Desenvolvimento de produtos digitais educacionais e soluções de e-mail responsivas,
+                            atuando na interseção entre design e engenharia com HTML, CSS, JavaScript, React, MJML,
+                            Selligent e Figma.
                         </p>
                     </div>
                 </div>
@@ -172,9 +176,9 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <div class="timeline-header">
-                            <h3 class="timeline-title">Desenvolvedor Front-end & Gestão de Branding</h3>
+                            <h3 class="timeline-title" data-i18n="exp2Title">Desenvolvedor Front-end & Gestão de Branding</h3>
                             <span class="timeline-company">Grupo Tecla</span>
-                            <span class="timeline-date">Mar 2023 - Dez 2023</span>
+                            <span class="timeline-date" data-i18n="exp2Date">Mar 2023 - Dez 2023</span>
                         </div>
                         <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Porto, Portugal</p>
                         <p class="timeline-desc" data-i18n="exp2Desc">
@@ -184,21 +188,37 @@
                     </div>
                 </div>
 
-                <!-- Carreira Anterior (condensada) -->
+                <!-- Colégio Nossa Senhora do Rosário -->
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <div class="timeline-header">
-                            <h3 class="timeline-title" data-i18n="expEarlierTitle">Carreira Anterior — Design, Educação & Gestão de Projetos</h3>
-                            <span class="timeline-company">Colégio Nossa Senhora do Rosário · Martins e Câmara</span>
-                            <span class="timeline-date">2009 - 2022</span>
+                            <h3 class="timeline-title" data-i18n="expEarlierTitle">Design, Educação & Gestão de Projetos</h3>
+                            <span class="timeline-company">Colégio Nossa Senhora do Rosário</span>
+                            <span class="timeline-date">2011 - 2022</span>
                         </div>
-                        <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Rio de Janeiro, Brasil · Aveiro, Portugal</p>
+                        <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Rio de Janeiro, Brasil</p>
                         <ul class="timeline-achievements">
                             <li data-i18n="expEarlierLi1">Coordenador de Desenvolvimento de Projetos (2017-2022): digitalização da comunicação escolar via app mobile próprio, integração de controle de acessos RFID e implementação do ecossistema Google for Education</li>
                             <li data-i18n="expEarlierLi2">Professor de Informática e Robótica (2013-2017)</li>
-                            <li data-i18n="expEarlierLi3">Designer gráfico e web (2009-2022): identidade visual para eventos, materiais editoriais e marcas de bem-estar (PureGlamour, El Spa, Satsanga Spa)</li>
+                            <li data-i18n="expEarlierLi3">Designer gráfico e web (2011-2022): identidade visual para eventos, materiais editoriais e projetos institucionais</li>
                         </ul>
+                    </div>
+                </div>
+
+                <!-- Martins e Câmara -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title" data-i18n="exp4Title">Designer</h3>
+                            <span class="timeline-company">Martins e Câmara</span>
+                            <span class="timeline-date" data-i18n="exp4Date">Jan 2009 - Nov 2009</span>
+                        </div>
+                        <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Porto, Portugal</p>
+                        <p class="timeline-desc" data-i18n="exp4Desc">
+                            Desenvolvimento de identidades visuais e materiais publicitários para clientes dos setores de luxo e bem-estar.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -215,13 +235,13 @@
             <div class="education-grid">
                 <div class="education-card">
                     <div class="education-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                    <h3 class="education-title">Pós-Graduação 3D</h3>
+                    <h3 class="education-title" data-i18n="edu1Title">Pós-Graduação em Animação 3D e Vídeo</h3>
                     <p class="education-institution">Instituto Infnet</p>
                     <p class="education-date">2012 - 2015</p>
                 </div>
                 <div class="education-card">
                     <div class="education-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                    <h3 class="education-title">Licenciatura em Criação e Gestão de Ambientes Internet</h3>
+                    <h3 class="education-title" data-i18n="edu3Title">Licenciatura em Criação e Gestão de Ambientes Internet</h3>
                     <p class="education-institution">Universidade dos Açores / Universidade Estácio de Sá</p>
                     <p class="education-date">2005 - 2009</p>
                     <p class="education-note" data-i18n="eduNote">Validado pela Universidade dos Açores, Portugal</p>
@@ -249,6 +269,16 @@
                         <span class="skill-tag">SASS/SCSS</span>
                         <span class="skill-tag">Git/GitHub</span>
                         <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title" data-i18n="skillEmail">Email Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML Email</span>
+                        <span class="skill-tag">MJML</span>
+                        <span class="skill-tag">Selligent</span>
+                        <span class="skill-tag">Outlook</span>
+                        <span class="skill-tag">Email QA</span>
                     </div>
                 </div>
                 <div class="skill-category">
