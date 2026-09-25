@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renato Alves de Oliveira — Currículo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.10.0/tabler-icons.min.css">
+
+  <style>
+    :root {
+      --bg-app: #f8fafc;
+      --bg-card: #ffffff;
+      --sidebar-bg: #1e293b;
+      --sidebar-text: #cbd5e1;
+      --sidebar-heading: #94a3b8;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+      --color-primary: #4f46e5;
+      --radius: 16px;
+      --font: 'Outfit', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg-app);
+      color: var(--text-main);
+      -webkit-font-smoothing: antialiased;
+      padding: 40px 20px;
+    }
+
+    .toolbar-print {
+      max-width: 900px;
+      margin: 0 auto 16px;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .toolbar-print button {
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: none;
+      background: var(--color-primary);
+      color: white;
+      font-family: var(--font);
+      font-weight: 500;
+      font-size: 13px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .folha {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 260px 1fr;
+    }
+
+    .sidebar {
+      background: var(--sidebar-bg);
+      color: var(--sidebar-text);
+      padding: 36px 26px;
+    }
+
+    .sidebar h2 {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--sidebar-heading);
+      font-weight: 600;
+      margin-bottom: 10px;
+      margin-top: 26px;
+    }
+
+    .sidebar h2:first-child { margin-top: 0; }
+
+    .sidebar .contato-item {
+      font-size: 13px;
+      line-height: 1.7;
+      word-break: break-word;
+    }
+
+    .sidebar .contato-item a { color: var(--sidebar-text); text-decoration: none; }
+
+    .skill-group { margin-bottom: 14px; }
+    .skill-group:last-child { margin-bottom: 0; }
+
+    .skill-group h3 {
+      font-size: 12px;
+      font-weight: 600;
+      color: #e2e8f0;
+      margin-bottom: 3px;
+    }
+
+    .skill-group p {
+      font-size: 12.5px;
+      line-height: 1.6;
+      color: var(--sidebar-text);
+    }
+
+    .cert-item {
+      font-size: 12.5px;
+      line-height: 1.6;
+      margin-bottom: 6px;
+      color: var(--sidebar-text);
+    }
+
+    .principal {
+      padding: 40px 44px;
+    }
+
+    .principal h1 {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .principal .titulo {
+      font-size: 14px;
+      color: var(--color-primary);
+      font-weight: 500;
+      margin-bottom: 3px;
+    }
+
+    .principal .local {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+
+    section { margin-bottom: 26px; }
+    section:last-child { margin-bottom: 0; }
+
+    section > h2 {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .resumo p {
+      font-size: 13.5px;
+      line-height: 1.75;
+      color: var(--text-main);
+      text-align: justify;
+    }
+
+    .experiencia-item { margin-bottom: 20px; }
+    .experiencia-item:last-child { margin-bottom: 0; }
+
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px 12px;
+    }
+
+    .exp-header .empresa { font-size: 14.5px; font-weight: 600; }
+    .exp-header .periodo { font-size: 12px; color: var(--text-muted); white-space: nowrap; }
+
+    .exp-cargo { font-size: 13px; color: var(--color-primary); font-weight: 500; margin-top: 2px; }
+    .exp-local { font-size: 12px; color: var(--text-muted); margin-bottom: 6px; }
+
+    .experiencia-item p.desc {
+      font-size: 13px;
+      color: var(--text-main);
+      margin-bottom: 6px;
+      line-height: 1.6;
+    }
+
+    .experiencia-item ul {
+      margin-left: 18px;
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--text-main);
+    }
+
+    .formacao-item {
+      font-size: 13.5px;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    .formacao-item strong { font-weight: 600; }
+    .formacao-item .periodo { color: var(--text-muted); font-size: 12px; }
+
+    @media print {
+      body { padding: 0; background: white; }
+      .toolbar-print { display: none; }
+      .folha { border: none; border-radius: 0; max-width: 100%; }
+    }
+
+    @media (max-width: 700px) {
+      .folha { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="toolbar-print">
+    <button onclick="window.print()"><i class="ti ti-printer"></i> Exportar / Imprimir PDF</button>
+  </div>
+
+  <div class="folha">
+    <aside class="sidebar">
+      <h2>Contacto</h2>
+      <div class="contato-item">+351 93 419 2942 (Telemóvel)</div>
+      <div class="contato-item"><a href="mailto:alves.renato@gmail.com">alves.renato@gmail.com</a></div>
+      <div class="contato-item"><a href="https://linkedin.com/in/alvesrenato" target="_blank" rel="noopener">linkedin.com/in/alvesrenato (LinkedIn)</a></div>
+      <div class="contato-item"><a href="https://alvesrenato.github.io" target="_blank" rel="noopener">alvesrenato.github.io</a></div>
+
+      <h2>Principais competências</h2>
+      <div class="skill-group">
+        <h3>Desenvolvimento de E-mail</h3>
+        <p>MJML · HTML Email · E-mail Responsivo · Outlook · Templates de E-mail · Selligent · Controlo de Qualidade</p>
+      </div>
+      <div class="skill-group">
+        <h3>Desenvolvimento Front-end</h3>
+        <p>HTML5 · CSS3 · JavaScript · React · Design Responsivo</p>
+      </div>
+      <div class="skill-group">
+        <h3>Design e Ferramentas</h3>
+        <p>UI/UX · Figma · Git/GitHub · Vite</p>
+      </div>
+      <div class="skill-group">
+        <h3>Outras</h3>
+        <p>SQL · PHP · AJAX · MySQL · Python</p>
+      </div>
+
+      <h2>Certificações</h2>
+      <div class="cert-item">Formação em Web Design / Front-end</div>
+      <div class="cert-item">Pós-Graduação em Animação 3D e Vídeo</div>
+      <div class="cert-item">PHP + AJAX + MySQL</div>
+    </aside>
+
+    <main class="principal">
+      <h1>Renato Alves de Oliveira</h1>
+      <div class="titulo">Programador Front-end | Email Development | MJML | Selligent | React | UI/UX</div>
+      <div class="local">Porto, Portugal</div>
+
+      <section class="resumo">
+        <h2>Resumo</h2>
+        <p>
+          Programador Front-end com mais de 15 anos de experiência em desenvolvimento web, UI/UX e
+          comunicação digital. Atualmente na Porto Editora, trabalho na interseção entre design e
+          engenharia, a desenvolver produtos digitais e soluções de e-mail responsivos e centrados no
+          utilizador. A minha experiência inclui desenvolvimento front-end com HTML, CSS, JavaScript e
+          React, bem como desenvolvimento de e-mail com MJML, Selligent e HTML responsivo. Colaboro de
+          perto com as equipas de design e utilizo o Figma para transformar propostas visuais em
+          implementações rigorosas e escaláveis. Ao longo da carreira, trabalhei em projetos de
+          transformação digital, automatização e otimização de processos, nomeadamente:
+          Produtos Digitais e Front-end — desenvolvimento de experiências digitais responsivas, com
+          forte foco em usabilidade, desempenho e fidelidade visual. Desenvolvimento de E-mail —
+          criação e manutenção de templates de e-mail responsivos em MJML e HTML, com atenção à
+          compatibilidade entre clientes de e-mail, incluindo o Outlook, e controlo de qualidade antes
+          do envio. Transformação Digital — liderança da implementação do ecossistema Google for
+          Education numa grande instituição de ensino, simplificando o trabalho de milhares de
+          utilizadores. Automatização e Otimização de Processos — utilização de Python e scripts para
+          automatizar tarefas repetitivas e melhorar os fluxos de trabalho internos.
+          A minha formação académica junta uma licenciatura em Criação e Gestão de Ambientes Internet,
+          reconhecida pela Universidade dos Açores, a uma pós-graduação em Animação 3D e Vídeo. Esta
+          combinação de design, tecnologia e negócio permite-me articular requisitos criativos e
+          técnicos e convertê-los em soluções digitais práticas.
+        </p>
+      </section>
+
+      <section>
+        <h2>Experiência</h2>
+
+        <div class="experiencia-item">
+          <div class="exp-header">
+            <span class="empresa">Porto Editora</span>
+            <span class="periodo">outubro de 2023 – presente</span>
+          </div>
+          <div class="exp-cargo">Programador Front-end</div>
+          <div class="exp-local">Porto, Portugal</div>
+          <p class="desc">Desenvolvimento de produtos digitais educativos, na interseção entre desenvolvimento front-end, UI/UX e comunicação digital.</p>
+          <p class="desc" style="margin-bottom:4px"><strong>Principais responsabilidades e resultados:</strong></p>
+          <ul>
+            <li>Desenvolvimento e manutenção de interfaces responsivas com HTML, CSS, JavaScript e React.</li>
+            <li>Desenvolvimento de e-mails e templates responsivos em MJML, HTML e CSS, com forte foco na compatibilidade entre clientes de e-mail, incluindo o Outlook.</li>
+            <li>Criação e manutenção de templates de e-mail e soluções de comunicação digital no Selligent.</li>
+            <li>Tradução de propostas visuais e especificações em implementações rigorosas e escaláveis, com o Figma como referência ao longo de todo o desenvolvimento.</li>
+            <li>Testes e controlo de qualidade de e-mails e interfaces, identificando e resolvendo problemas de layout, compatibilidade e renderização.</li>
+            <li>Colaboração com designers e equipas multidisciplinares para transformar requisitos de negócio em soluções digitais funcionais e escaláveis.</li>
+            <li>Utilização de scripts e Python para automatizar tarefas repetitivas e melhorar os fluxos de trabalho internos.</li>
+          </ul>
+        </div>
+
+        <div class="experiencia-item">
+          <div class="exp-header">
+            <span class="empresa">Grupo Tecla</span>
+            <span class="periodo">março de 2023 – dezembro de 2023 (10 meses)</span>
+          </div>
+          <div class="exp-cargo">Programador Front-end e Gestão de Branding</div>
+          <div class="exp-local">Porto, Portugal</div>
+          <p class="desc">Desenvolvimento front-end e gestão de branding, contribuindo para a modernização da presença digital do grupo e garantindo que as implementações técnicas se mantinham alinhadas com a identidade visual da empresa.</p>
+          <p class="desc" style="margin-bottom:4px"><strong>Principais responsabilidades e resultados:</strong></p>
+          <ul>
+            <li>Desenvolvimento e manutenção de interfaces web responsivas.</li>
+            <li>Implementação de layouts e componentes com foco na consistência visual, usabilidade e desempenho.</li>
+            <li>Articulação entre os requisitos de design, branding e desenvolvimento para criar experiências digitais coerentes.</li>
+            <li>Apoio à evolução da presença digital e dos canais de comunicação do grupo.</li>
+          </ul>
+        </div>
+
+        <div class="experiencia-item">
+          <div class="exp-header">
+            <span class="empresa">Colégio Nossa Senhora do Rosário</span>
+            <span class="periodo">11 anos e 10 meses</span>
+          </div>
+
+          <div style="margin-top:10px">
+            <div class="exp-cargo">Coordenador de Desenvolvimento de Projetos</div>
+            <div class="exp-local">dezembro de 2017 – outubro de 2022 (4 anos e 11 meses) · Rio de Janeiro, Brasil</div>
+            <p class="desc">Liderança de projetos de transformação digital e tecnologia educativa, na interseção entre gestão, comunicação, design e tecnologia.</p>
+            <p class="desc" style="margin-bottom:4px"><strong>Principais projetos e resultados:</strong></p>
+            <ul>
+              <li>Digitalização da comunicação escolar: conceção e implementação de uma aplicação móvel que substituiu a comunicação em papel, reduzindo custos operacionais e melhorando a comunicação entre a escola e as famílias.</li>
+              <li>Relação escola–família: solução que permitiu a professores e funcionários publicar conteúdos pedagógicos e avisos em tempo real, facilitando o acesso à informação por parte de pais e alunos.</li>
+              <li>Controlo de acessos: integração de cartões magnéticos no sistema de gestão de acessos, com registo automático de entradas e saídas dos alunos e notificações em tempo real aos encarregados de educação.</li>
+              <li>Google for Education: liderança da implementação estratégica do ecossistema Google for Education, modernizando os processos de trabalho e apoiando milhares de utilizadores.</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:14px">
+            <div class="exp-cargo">Designer</div>
+            <div class="exp-local">janeiro de 2011 – outubro de 2022 (11 anos e 10 meses) · Rio de Janeiro, Brasil</div>
+            <p class="desc">Trabalho transversal em design gráfico, identidade visual e web design, com uma transição progressiva do design tradicional e editorial para experiências e soluções digitais.</p>
+            <ul>
+              <li>Criação de materiais editoriais, publicitários e institucionais.</li>
+              <li>Desenvolvimento de identidades visuais para projetos institucionais e grandes eventos escolares.</li>
+              <li>Design de interfaces web e conteúdos de comunicação digital.</li>
+              <li>Gestão do processo de produção gráfica, incluindo preparação de ficheiros, coordenação com fornecedores e controlo de qualidade.</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:14px">
+            <div class="exp-cargo">Professor de Informática e Robótica</div>
+            <div class="exp-local">janeiro de 2013 – dezembro de 2017 (5 anos) · Rio de Janeiro, Brasil</div>
+            <p class="desc">Ensino de informática e robótica, com foco na tecnologia, no raciocínio lógico e no desenvolvimento prático de projetos.</p>
+          </div>
+        </div>
+
+        <div class="experiencia-item">
+          <div class="exp-header">
+            <span class="empresa">Martins e Câmara</span>
+            <span class="periodo">janeiro de 2009 – novembro de 2009 (11 meses)</span>
+          </div>
+          <div class="exp-cargo">Designer</div>
+          <div class="exp-local">Porto, Portugal</div>
+          <p class="desc">Desenvolvimento de identidades visuais e materiais publicitários para clientes dos setores do luxo e do bem-estar, com forte foco na consistência de marca e na qualidade de execução.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Formação académica</h2>
+        <div class="formacao-item">
+          <strong>Instituto Infnet</strong><br>
+          Pós-Graduação em Animação 3D e Vídeo · <span class="periodo">(2012 – 2015)</span>
+        </div>
+        <div class="formacao-item">
+          <strong>Universidade dos Açores</strong><br>
+          Reconhecimento da Licenciatura em Criação e Gestão de Ambientes Internet · <span class="periodo">(2009)</span>
+        </div>
+        <div class="formacao-item">
+          <strong>Universidade Estácio de Sá</strong><br>
+          Licenciatura em Criação e Gestão de Ambientes Internet, Informática · <span class="periodo">(2005 – 2008)</span>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>

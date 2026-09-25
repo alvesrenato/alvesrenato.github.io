@@ -1,60 +1,61 @@
 // Internationalization Data
 const i18n = {
     pt: {
-        role: "Front-End Developer | Email Development | MJML | Selligent | React | UI/UX",
-        greeting: "Olá, sou",
-        heroDesc: "Desenvolvedor Front-end com mais de 15 anos de experiência, especializado em interfaces performáticas, acessíveis e centradas no usuário — com uma base sólida em design que garante fidelidade visual do primeiro pixel ao deploy.",
-        contactBtn: "Entrar em Contato",
-        navContact: "Falar no WhatsApp",
+        role: "Programador Front-end | Email Development | MJML | Selligent | React | UI/UX",
+        greeting: "Olá, sou o",
+        heroDesc: "Programador Front-end com mais de 15 anos de experiência, especializado em interfaces de alto desempenho, acessíveis e centradas no utilizador — com uma base sólida em design que garante fidelidade visual do primeiro píxel à publicação.",
+        contactBtn: "Entrar em Contacto",
+        navContact: "Falar pelo WhatsApp",
         experienceBtn: "Ver Experiência",
-        downloadBtn: "Baixar Currículo (PDF)",
-        printHint: "Dica: no diálogo de impressão, abra \"Mais definições\" e desative \"Cabeçalhos e rodapés\" para um PDF limpo.",
-        yearsExp: "Anos Exp.",
+        downloadBtn: "Descarregar Currículo (PDF)",
+        printHint: "Dica: na janela de impressão, abra \"Mais definições\" e desative \"Cabeçalhos e rodapés\" para obter um PDF limpo.",
+        yearsExp: "Anos de Exp.",
         languages: "Idiomas",
         passion: "Paixão",
         aboutTag: "Sobre",
         aboutTitle: "Perfil Profissional",
-        aboutP1: "Atuo como Desenvolvedor Front-end, transformando design em código com HTML, CSS, JavaScript e React. Atualmente na Porto Editora, construo produtos digitais educacionais e soluções de e-mail responsivas com MJML e Selligent, trabalhando lado a lado com times de design em Figma para garantir fidelidade visual sem abrir mão de boas práticas de engenharia.",
-        aboutP2: "Sou um solucionador nato de problemas, com foco em código limpo, performance e experiência do usuário. Minha trajetória passa por otimização de custos, automação de processos e transformação digital — sempre com o front-end como ponto de entrega final.",
+        aboutP1: "Trabalho como Programador Front-end, a transformar design em código com HTML, CSS, JavaScript e React. Atualmente na Porto Editora, desenvolvo produtos digitais educativos e soluções de e-mail responsivas com MJML e Selligent, em estreita colaboração com as equipas de design em Figma, para garantir fidelidade visual sem abdicar das boas práticas de engenharia.",
+        aboutP2: "Tenho uma aptidão natural para resolver problemas, com foco em código limpo, desempenho e experiência do utilizador. O meu percurso passa pela otimização de custos, automatização de processos e transformação digital — sempre com o front-end como ponto final de entrega.",
         highlight1Title: "Otimização de Custos",
-        highlight1Desc: "App mobile que substituiu comunicação em papel, reduzindo custos operacionais",
+        highlight1Desc: "Aplicação móvel que substituiu a comunicação em papel, reduzindo os custos operacionais",
         highlight2Title: "Transformação Digital",
-        highlight2Desc: "Implementação do ecossistema Google for Education para milhares de usuários",
-        highlight3Title: "Automação",
-        highlight3Desc: "Expansão do toolkit técnico com Python para automação de workflows",
+        highlight2Desc: "Implementação do ecossistema Google for Education para milhares de utilizadores",
+        highlight3Title: "Automatização",
+        highlight3Desc: "Alargamento das competências técnicas com Python para automatizar fluxos de trabalho",
         skillsTag: "Competências",
-        skillsTitle: "Habilidades Técnicas",
+        skillsTitle: "Competências Técnicas",
         skillEmail: "Desenvolvimento de E-mail",
         skillPrototyping: "Prototipagem",
-        skillBackendOthers: "Backend & Outros",
+        skillBackendOthers: "Back-end e Outros",
         skillManagement: "Gestão",
         skillProjectManagement: "Gestão de Projetos",
         skillDigitalTransformation: "Transformação Digital",
         expTag: "Carreira",
         expTitle: "Experiência Profissional",
-        exp1Title: "Desenvolvedor Front-end",
+        exp1Title: "Programador Front-end",
         exp1Date: "Out 2023 - Presente",
-        exp1Desc: "Desenvolvimento de produtos digitais educacionais e soluções de e-mail responsivas, atuando na interseção entre design e engenharia com HTML, CSS, JavaScript, React, MJML, Selligent e Figma.",
-        exp2Title: "Desenvolvedor Front-end & Gestão de Branding",
+        exp1Desc: "Desenvolvimento de produtos digitais educativos e soluções de e-mail responsivas, na interseção entre design e engenharia, com HTML, CSS, JavaScript, React, MJML, Selligent e Figma.",
+        exp2Title: "Programador Front-end e Gestão de Branding",
         exp2Date: "Mar 2023 - Dez 2023",
-        exp2Desc: "Atuação híbrida focada na modernização da presença digital do grupo, garantindo alinhamento entre implementação técnica e estratégia de branding.",
-        expEarlierTitle: "Design, Educação & Gestão de Projetos",
-        expEarlierLi1: "Coordenador de Desenvolvimento de Projetos (2017-2022): digitalização da comunicação escolar via app mobile próprio, integração de controle de acessos RFID e implementação do ecossistema Google for Education",
+        exp2Desc: "Função híbrida focada na modernização da presença digital do grupo, garantindo o alinhamento entre a implementação técnica e a estratégia de branding.",
+        expEarlierTitle: "Design, Educação e Gestão de Projetos",
+        expEarlierLi1: "Coordenador de Desenvolvimento de Projetos (2017-2022): digitalização da comunicação escolar através de uma aplicação móvel própria, integração do controlo de acessos por RFID e implementação do ecossistema Google for Education",
         expEarlierLi2: "Professor de Informática e Robótica (2013-2017)",
-        expEarlierLi3: "Designer gráfico e web (2011-2022): identidade visual para eventos, materiais editoriais e projetos institucionais",
+        expEarlierLi3: "Designer gráfico e web (2011-2022): identidade visual de eventos, materiais editoriais e projetos institucionais",
         exp4Title: "Designer",
         exp4Date: "Jan 2009 - Nov 2009",
-        exp4Desc: "Desenvolvimento de identidades visuais e materiais publicitários para clientes dos setores de luxo e bem-estar.",
+        exp4Desc: "Desenvolvimento de identidades visuais e materiais publicitários para clientes dos setores do luxo e do bem-estar.",
         eduTag: "Formação",
-        eduTitle: "Educação",
+        eduTitle: "Formação Académica",
         edu1Title: "Pós-Graduação em Animação 3D e Vídeo",
         edu2Title: "Licenciatura em Criação e Gestão de Ambientes Internet",
         edu3Title: "Licenciatura em Criação e Gestão de Ambientes Internet",
-        eduNote: "Validado pela Universidade dos Açores, Portugal",
-        contactTag: "Contato",
+        eduNote: "Reconhecida pela Universidade dos Açores, Portugal",
+        locRio: "Rio de Janeiro, Brasil",
+        contactTag: "Contacto",
         contactTitle: "Vamos Conversar",
-        contactDesc: "Estou sempre aberto a novas oportunidades e colaborações. Vamos criar algo incrível juntos?",
-        footerText: "Design & Desenvolvimento próprios"
+        contactDesc: "Estou sempre disponível para novas oportunidades e colaborações. Vamos criar algo incrível juntos?",
+        footerText: "Design e desenvolvimento próprios"
     },
     en: {
         role: "Front-End Developer | Email Development | MJML | Selligent | React | UI/UX",
@@ -105,7 +106,8 @@ const i18n = {
         edu1Title: "Postgraduate Degree in 3D Animation and Video",
         edu2Title: "Degree in Internet Environments Creation and Management",
         edu3Title: "Degree in Internet Environments Creation and Management",
-        eduNote: "Validated by University of the Azores, Portugal",
+        eduNote: "Validated by the University of the Azores, Portugal",
+        locRio: "Rio de Janeiro, Brazil",
         contactTag: "Contact",
         contactTitle: "Let's Talk",
         contactDesc: "I'm always open to new opportunities and collaborations. Let's create something amazing together?",
@@ -161,6 +163,7 @@ const i18n = {
         edu2Title: "Laurea in Creazione e Gestione di Ambienti Internet",
         edu3Title: "Laurea in Creazione e Gestione di Ambienti Internet",
         eduNote: "Convalidato dall'Università degli Azzorre, Portogallo",
+        locRio: "Rio de Janeiro, Brasile",
         contactTag: "Contatto",
         contactTitle: "Parliamone",
         contactDesc: "Sono sempre aperto a nuove opportunità e collaborazioni. Creiamo qualcosa di incredibile insieme?",
@@ -202,6 +205,13 @@ function init() {
     setupWhatsappMask();
     setupDownloadCv();
     setupPhotoModal();
+    setFooterYear();
+}
+
+// Footer Year
+function setFooterYear() {
+    const yearEl = document.querySelector('.js-year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
 }
 
 // Photo Modal
@@ -270,7 +280,7 @@ function setLanguage(lang) {
     });
 
     // Update HTML lang attribute
-    html.lang = lang;
+    html.lang = lang === 'pt' ? 'pt-PT' : lang;
 
     // Update all translatable elements
     document.querySelectorAll('[data-i18n]').forEach(element => {
